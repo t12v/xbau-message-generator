@@ -1,0 +1,19 @@
+{
+  "name": "@t12v/xbau-message-generator",
+  "scripts": {
+    "build": "nuxt build",
+    "clean": "npm ci",
+    "dev": "nuxt dev",
+    "test": "npm run lint",
+    "lint": "eslint",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/eslint": "^0.6.0",
+    "nuxt": "^3.13.2",
+    "vue": "latest",
+    "vue-router": "latest"
+  }
+}
